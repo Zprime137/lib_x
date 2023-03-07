@@ -50,3 +50,7 @@
 
 * Fixed X.isOpenModal bug
 
+## 0.1.7
+
+* Dart 3 ready
+
