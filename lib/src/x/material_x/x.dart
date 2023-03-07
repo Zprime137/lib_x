@@ -32,7 +32,7 @@ abstract class X {
   static final ValueController<ThemeMode> themeMode =
       ValueController<ThemeMode>(XUtils.sysThemeMode);
 
-  /// check if modal is open
+  ///Getter: check if modal is open
   static bool get isOpenModal => ModalRoute.of(currentContext)!.isCurrent;
 
   /// current path

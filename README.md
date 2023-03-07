@@ -30,39 +30,14 @@ By installing __```lib_x```__, you have these awesome packages already installed
 <br><br>
 
 # __Solutions__
-- [__lib\_x__](#lib_x)
-    - [__lib\_x__ is designed to complement 2 things:](#lib_x-is-designed-to-complement-2-things)
-    - [The purpose of this library:](#the-purpose-of-this-library)
-    - [Packages included in this liberary:](#packages-included-in-this-liberary)
-- [__Solutions__](#solutions)
   - [__MaterialX \& X Controller__](#materialx--x-controller)
-    - [__```MaterialX```__](#materialx)
-    - [__```X```__ ](#x-)
-      - [__Theme Management__](#theme-management)
-      - [__Route Management__](#route-management)
   - [__ScaffoldX__](#scaffoldx)
-      - [E.g.](#eg)
-      - [E.g.](#eg-1)
   - [__DataProvider__](#dataprovider)
-      - [__```Widget DataProvider<T>```__](#widget-dataprovidert)
-      - [E.g. models/user\_model.dart](#eg-modelsuser_modeldart)
   - [__StatefulData \& ReBuilder__](#statefuldata--rebuilder)
-    - [```StatefulData```:](#statefuldata)
-    - [```ReBuilder``` :](#rebuilder-)
-      - [E.g.](#eg-2)
   - [__ValueController \& ReactiveBuilder__](#valuecontroller--reactivebuilder)
-    - [```ValueController<T>```:](#valuecontrollert)
-    - [```ReactiveBuilder```](#reactivebuilder)
-      - [E.g.](#eg-3)
   - [__XUtils__](#xutils)
   - [__Widgets__](#widgets)
-      - [```Widget PersistStateWidget({required Widget child})```](#widget-persiststatewidgetrequired-widget-child)
-      - [E.g.](#eg-4)
-      - [```Widget DismissModalWidget({required Widget child})``` ](#widget-dismissmodalwidgetrequired-widget-child-)
-      - [E.g.](#eg-5)
-    - [P.S.](#ps)
-    - [Credits goes to the authers of the implemented packages \& of course the developers of Dart \& Flutter](#credits-goes-to-the-authers-of-the-implemented-packages--of-course-the-developers-of-dart--flutter)
-  - [Happy Coding](#happy-coding)
+
 
 ## __MaterialX & X Controller__<br>
 
