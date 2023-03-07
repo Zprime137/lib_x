@@ -33,7 +33,7 @@ abstract class X {
       ValueController<ThemeMode>(XUtils.sysThemeMode);
 
   ///Getter: check if modal is open
-  static bool get isOpenModal => ModalRoute.of(currentContext)!.isCurrent;
+  static bool isOpenModal = false;
 
   /// current path
   static String currentPath = Root;
@@ -261,6 +261,7 @@ abstract class X {
     /// Color: the barrier background color
     Color? barrierColor,
   }) {
+    isOpenModal = true;
     showDialog(
       /// barrierDismissible: true, /// doesn't work
       useSafeArea: safeArea,
@@ -274,6 +275,7 @@ abstract class X {
 
   /// to pop modal, bottomSheet, drawer, or keyboard
   static void pop() {
+    isOpenModal = false;
     Navigator.of(currentContext, rootNavigator: true).pop();
   }
 }

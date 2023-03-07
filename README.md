@@ -205,7 +205,7 @@ X.showModal({
   })
 ```
 
-- ```bool X.isOpenModal``` => a getter to check if modal is open.
+- ```bool X.isOpenModal``` => check if modal is open.
 
 - ```void X.pop()``` => pop modal, bottomSheet, drawer, or keyboard.
 <br><br>
